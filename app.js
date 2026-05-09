@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello world from Azure DevOps CI/CD 🚀');
+    res.send('Version 2 deployed automatically 🔥');
 });
 
 app.listen(PORT, () => {
